@@ -8,7 +8,7 @@ int main(){
     int a[]={5,6,7,3,1,9,2,8,4};
     int len=9;
     
-    selection_sort(a, len);
+    insertion_sort(a, len);
     
     for(int i=0;i<len-1;i++)
     printf("%d,",a[i]);
