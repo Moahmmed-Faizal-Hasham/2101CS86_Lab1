@@ -1,6 +1,11 @@
+//generating a C calculator
+
+
 #include <stdio.h>
 
 int main() {
+
+    //variable initialization
     float a,b;
     printf("Give the 1st num \n");
     scanf("%f",&a);
@@ -12,6 +17,8 @@ int main() {
     land:
     printf("Enter the opration to excute:");
     scanf("%s",&x);
+
+    //calculations
     float ans;
     switch (x){
         case '-':
@@ -35,6 +42,7 @@ int main() {
         goto land;
         
     }
+    //output display
     printf("result is: %f",ans);
 
 
