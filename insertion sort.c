@@ -1,3 +1,5 @@
+//conducting insertion sort
+
 #include <stdio.h>
 
 void bubble_sort(int arr[], int len);
@@ -5,10 +7,11 @@ void selection_sort(int arr[], int n);
 void insertion_sort(int arr[], int n);
 
 int main(){
+    //initialization of array
     int a[]={5,6,7,3,1,9,2,8,4};
     int len=9;
     
-    insertion_sort(a, len);
+    insertion_sort(a, len);//sorting method
     
     for(int i=0;i<len-1;i++)
     printf("%d,",a[i]);
